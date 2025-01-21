@@ -1,12 +1,2 @@
-def signup(username, password):
-    f = open("users.txt", "a")
-    f.write(f"{username} {password}\n")
-    f.close()
-
-    def login(username, password):
-        f = open("users.txt", "r")
-        isTrue = False
-        for line in f:
-            if line == f"{username} {password}\n":
-                isTrue=True
-                break
+a=int(input("lubbo'y son kirit"))
+b=int(input("libbo'y bitta boshqa son kirit"))
